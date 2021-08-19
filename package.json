@@ -1,0 +1,19 @@
+{
+  "name": "antlr-markdown-grammars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dockerfile": "docker build -t antlr ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoBey/antlr-markdown-grammars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoBey/antlr-markdown-grammars/issues"
+  },
+  "homepage": "https://github.com/NoBey/antlr-markdown-grammars#readme"
+}
