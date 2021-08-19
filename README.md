@@ -10,3 +10,6 @@
 > docker run -it -v ${PWD}:/antlr antlr -o test test.g4
 
 
+## 生成 antlr
+
+> npm run build:antlr
