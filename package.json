@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dockerfile": "docker build -t antlr .",
-    "build:antlr": "docker run -it -v ${PWD}:/antlr antlr -Dlanguage=JavaScript -o antlr markdown.g4"
+    "build:dockerfile": "docker build -t nobey/antlr .",
+    "build:antlr": "docker run -it -v ${PWD}:/antlr nobey/antlr -Dlanguage=JavaScript -o antlr markdown.g4"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/NoBey/antlr-markdown-grammars#readme",
   "dependencies": {
     "antlr4": "^4.9.2"
-  }
+  },
+  "type": "module"
 }
