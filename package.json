@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:dockerfile": "docker build -t nobey/antlr .",
-    "build:antlr": "docker run -it -v ${PWD}:/antlr nobey/antlr -Dlanguage=JavaScript -o antlr markdown.g4"
+    "build:antlr": "docker run -it -v ${PWD}:/antlr nobey/antlr -Dlanguage=JavaScript -visitor -o antlr markdown.g4",
+    "build:test": "docker run -it -v ${PWD}:/antlr nobey/antlr -Dlanguage=JavaScript -visitor -o test test.g4"
   },
   "repository": {
     "type": "git",
